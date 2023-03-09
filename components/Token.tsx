@@ -43,7 +43,6 @@ export function Token({ metadata }) {
             <a
               target="_blank"
               rel="noreferrer"
-              href={`${baseUrl}/api/metadata/${tokenId}`}
             >
               View Metadata
             </a>
