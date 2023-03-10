@@ -7,18 +7,12 @@ import 'degen/styles'
 import { getDefaultWallets, RainbowKitProvider, lightTheme } from '@rainbow-me/rainbowkit'
 import { configureChains, createClient, WagmiConfig, allChains } from 'wagmi'
 import { publicProvider } from 'wagmi/providers/public'
-import { alchemyProvider } from 'wagmi/providers/alchemy'
 import { ThemeProvider } from 'degen'
 import { ToastContainer } from 'react-toastify'
 
 const { chains, provider } = configureChains(
   [allChains.find((chain) => chain.id.toString() === process.env.NEXT_PUBLIC_CHAIN_ID)],
-  [
-    publicProvider(),
-    alchemyProvider({
-      alchemyId: process.env.NEXT_PUBLIC_ALCHEMY_ID || 'ZeomCbmdEO5q085WxHsAm18O80h3jIcP',
-    }),
-  ]
+  [publicProvider()]
 )
 
 const { connectors } = getDefaultWallets({
