@@ -1,11 +1,11 @@
 import Head from 'next/head'
 
-const SeoHead = () => {
+const SeoHead = ({
+  image = 'https://nftstorage.link/ipfs/bafybeid2v7ewhc3nsogbqrginxwys2ky3lxbmde72iafqmafsojz22f64e',
+}) => {
   const title = process.env.NEXT_PUBLIC_TITLE
   const description = process.env.NEXT_PUBLIC_DESCRIPTION_TEXT
-  const image =
-    'https://nftstorage.link/ipfs/bafybeid2v7ewhc3nsogbqrginxwys2ky3lxbmde72iafqmafsojz22f64e'
-  const url = 'https://notyetno.xyz/'
+  const url = 'https://march8.xyz/'
 
   return (
     <Head>
