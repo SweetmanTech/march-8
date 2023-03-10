@@ -12,7 +12,7 @@ const getMaticPrice = async () => {
         "https://min-api.cryptocompare.com/data/price?fsym=MATIC&tsyms=USD",
         {
           headers: {
-            "X-CMC_PRO_API_KEY": process.env.COINMARKETCAP_API_KEY,
+            "X-CMC_PRO_API_KEY": process.env.COINMARKETCAP_API_KEY || "1b23d28e-e5eb-49be-8c69-cee5ebe86bb9",
           },
         }
       );
