@@ -23,7 +23,6 @@ export const getServerSideProps: GetStaticProps = async (context) => {
   // Create Ethers Contract
   const chain = allChains.find((chain) => chain.id.toString() === chainId)
   const provider = getDefaultProvider(chain.network, chainId)
-  console.log('provider', provider)
   const contractAddressString = contractAddress.toString()
 
   // Get metadata renderer
@@ -34,10 +33,7 @@ export const getServerSideProps: GetStaticProps = async (context) => {
         props: { collection: dcntCollection, chainId: chain.id },
       }
     }
-    console.log('getting chill drop...')
     const chillCollection = await getCollectionChillDrop(contractAddressString, provider)
-    console.log('chillCollection', chillCollection)
-
     return {
       props: { collection: chillCollection, chainId: chain.id },
     }
