@@ -30,7 +30,7 @@ const HomePage: NextPage<HomePageProps> = ({ collection }) => {
 
   return (
     <>
-      <SeoHead />
+      <SeoHead image={ipfsImage(collection.editionMetadata.imageURI)} />
       <div
         className="font-body flex grid grid-cols-6 p-5 justify-center align-center "
         style={{ backgroundColor: 'black' }}
