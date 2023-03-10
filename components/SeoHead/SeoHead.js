@@ -1,7 +1,7 @@
 import Head from 'next/head'
 
 const SeoHead = ({
-  image = 'https://nftstorage.link/ipfs/bafybeid2v7ewhc3nsogbqrginxwys2ky3lxbmde72iafqmafsojz22f64e',
+  image = 'https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/cover.png',
 }) => {
   const title = process.env.NEXT_PUBLIC_TITLE
   const description = process.env.NEXT_PUBLIC_DESCRIPTION_TEXT

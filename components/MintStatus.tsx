@@ -272,7 +272,7 @@ export function MintStatus({
   const [isMinted, setIsMinted] = useState<boolean>(false)
   const [mintCounter, setMintCounter] = useState(1)
   const [maticPrice, setMaticPrice] = useState(0)
-  const [showCryptoPrice, setShowCryptoPrice] = useState(false)
+  const [showCryptoPrice, setShowCryptoPrice] = useState(true)
   const availableMints = maxPerWallet - (userMintedCount || 0)
   const internalPrice = allowlistEntry?.price || collection?.salesConfig?.publicSalePrice
   const displayPrice = useMemo(
