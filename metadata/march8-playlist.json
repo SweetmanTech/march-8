@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1",
-  "coverArtUrl": "https://nftstorage.link/ipfs/bafkreidw73ithvucesz7aebfucrjaglnjtkzygemevakkrnmylq2chwsa4",
-  "title": "march 8",
-  "artist": "female compilation",
+  "coverArtUrl": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/cover.png",
+  "title": "female compilation EP",
+  "artist": "M8",
   "chain": "Polygon",
   "contractAddress": "",
   "tokenId": "",
@@ -10,17 +10,28 @@
   "hideBranding": true,
   "items": [
     {
-      "url": "https://nftstorage.link/ipfs/Qmc3u1nFDd8Dv2FoACZMDKgqKgexwk6Cnu2zhR6yuHs9p2/SOL%20SIETE%20%20HOY%20LLUEVE%20x%20Dir.%20Camille%20Constant.mp3",
+      "url": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/Yagna_Castillo_DejaVu.mp3",
       "kind": "audio",
-      "artist": "sol siete",
-      "title": "hoy llueve"
+      "artist": "Yagna Castillo",
+      "title": "DejaVu"
     },
     {
-      "url": "https://nftstorage.link/ipfs/Qmc3u1nFDd8Dv2FoACZMDKgqKgexwk6Cnu2zhR6yuHs9p2/3.13.2023_LittleMissMusic_Genesis.mp3",
+      "url": "https://nftstorage.link/ipfs/bafybeidvq7f77ai4cbhlrdy5smadlr4m3jima2h4d4y3vsepgbyd5w67py/Nena1992_Look_at_me.mp3",
       "kind": "audio",
-      "artist": "little miss music",
+      "artist": "Nena1992",
+      "title": "Look at me"
+    },
+    {
+      "url": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/LittleMissMusic_Genesis.mp3",
+      "kind": "audio",
+      "artist": "Little Miss Music",
       "title": "genesis"
+    },
+    {
+      "url": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/sol_siete_hoy_llueve.wav",
+      "kind": "audio",
+      "artist": "Sol Siete",
+      "title": "Hoy llueve"
     }
-    
   ]
 }
