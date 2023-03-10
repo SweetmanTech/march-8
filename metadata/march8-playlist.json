@@ -1,0 +1,26 @@
+{
+  "schemaVersion": "1",
+  "coverArtUrl": "https://nftstorage.link/ipfs/bafkreidw73ithvucesz7aebfucrjaglnjtkzygemevakkrnmylq2chwsa4",
+  "title": "march 8",
+  "artist": "female compilation",
+  "chain": "Polygon",
+  "contractAddress": "",
+  "tokenId": "",
+  "tokenType": "ERC-721",
+  "hideBranding": true,
+  "items": [
+    {
+      "url": "https://nftstorage.link/ipfs/Qmc3u1nFDd8Dv2FoACZMDKgqKgexwk6Cnu2zhR6yuHs9p2/SOL%20SIETE%20%20HOY%20LLUEVE%20x%20Dir.%20Camille%20Constant.mp3",
+      "kind": "audio",
+      "artist": "sol siete",
+      "title": "hoy llueve"
+    },
+    {
+      "url": "https://nftstorage.link/ipfs/Qmc3u1nFDd8Dv2FoACZMDKgqKgexwk6Cnu2zhR6yuHs9p2/3.13.2023_LittleMissMusic_Genesis.mp3",
+      "kind": "audio",
+      "artist": "little miss music",
+      "title": "genesis"
+    }
+    
+  ]
+}
