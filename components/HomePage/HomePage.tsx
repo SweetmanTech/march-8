@@ -16,21 +16,17 @@ interface HomePageProps {
 
 const HomePage: NextPage<HomePageProps> = ({ collection }) => {
   const [tracks, setTracks] = useState([])
-  console.log('collection', collection.editionMetadata)
 
   useEffect(() => {
     const loadTracks = async (playlistUrl: string) => {
-      console.log('loading', playlistUrl)
-
       const { data } = await axios.get(playlistUrl)
       setTracks(data.items)
     }
     const playerUrl = collection.editionMetadata.animationURI
     const start = playerUrl.indexOf('playlist-url=') + 13
     const playlistUrl = playerUrl.substring(start)
-    console.log(playlistUrl)
     loadTracks(playlistUrl)
-  }, [])
+  }, [collection.editionMetadata.animationURI])
 
   return (
     <>
