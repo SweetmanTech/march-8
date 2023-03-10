@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "coverArtUrl": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/cover.png",
+  "coverArtUrl": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/cover.png",
   "title": "female compilation EP",
   "artist": "M8",
   "chain": "Polygon",
@@ -10,25 +10,31 @@
   "hideBranding": true,
   "items": [
     {
-      "url": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/Yagna_Castillo_DejaVu.mp3",
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/Yagna_Castillo_DejaVu.mp3",
       "kind": "audio",
       "artist": "Yagna Castillo",
       "title": "DejaVu"
     },
     {
-      "url": "https://nftstorage.link/ipfs/bafybeidvq7f77ai4cbhlrdy5smadlr4m3jima2h4d4y3vsepgbyd5w67py/Nena1992_Look_at_me.mp3",
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/Nena1992_Look_at_me.mp3",
       "kind": "audio",
       "artist": "Nena1992",
       "title": "Look at me"
     },
     {
-      "url": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/LittleMissMusic_Genesis.mp3",
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/LittleMissMusic_Genesis.mp3",
       "kind": "audio",
       "artist": "Little Miss Music",
       "title": "genesis"
     },
     {
-      "url": "https://nftstorage.link/ipfs/bafybeigoqxhuo76oop7uvqnw667olpaq5y3kxree26xatskveeqeehwg4u/sol_siete_hoy_llueve.wav",
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/CaliSpeedway_Out_the_Blue_mixnmastr_edit_2.mp3",
+      "kind": "audio",
+      "artist": "CaliSpeedway",
+      "title": "Out the Blue"
+    },
+    {
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/sol_siete_hoy_llueve.wav",
       "kind": "audio",
       "artist": "Sol Siete",
       "title": "Hoy llueve"
