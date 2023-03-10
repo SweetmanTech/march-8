@@ -292,7 +292,6 @@ export function MintStatus({
   useEffect(() => {
     const getMaticPrice = async () => {
       const { data: price } = await axios.get('/api/getMaticPrice')
-      console.log('PRICE', price)
       setMaticPrice(price.USD)
     }
     getMaticPrice()
