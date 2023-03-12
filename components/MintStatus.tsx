@@ -193,7 +193,7 @@ function SaleStatus({
               isMinted
                 ? { backgroundColor: '#1CB687' }
                 : {
-                    backgroundColor: '#f105cd',
+                    backgroundColor: '#ff017a',
                   }
             }
             className="fill-blue-500 font-bold text-xl"
