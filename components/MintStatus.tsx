@@ -154,7 +154,7 @@ function SaleStatus({
 
   return (
     <>
-      {!saleNotStarted && (
+      {!saleNotStarted && process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID && (
         <CrossmintPayButton
           clientId={process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID}
           environment="production"
