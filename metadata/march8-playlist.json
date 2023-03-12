@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1",
-  "coverArtUrl": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/cover.png",
+  "coverArtUrl": "https://nftstorage.link/ipfs/bafybeih4etusioppxmpbhvocnaabx2fyvhuxonyo4uy7nvzsbovmdoztpy/AnyConv.com__WIIN1QBD.jpg",
   "title": "female compilation EP",
-  "artist": "M8",
+  "artist": "8M",
   "chain": "Polygon",
   "contractAddress": "",
   "tokenId": "",
@@ -12,8 +12,14 @@
     {
       "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/Yagna_Castillo_DejaVu.mp3",
       "kind": "audio",
-      "artist": "Yagna Castillo",
+      "artist": "Yaxx Castillo",
       "title": "DejaVu"
+    },
+    {
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/sol_siete_hoy_llueve.wav",
+      "kind": "audio",
+      "artist": "Sol Siete",
+      "title": "Hoy llueve"
     },
     {
       "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/Nena1992_Look_at_me.mp3",
@@ -22,22 +28,16 @@
       "title": "Look at me"
     },
     {
-      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/LittleMissMusic_Genesis.mp3",
-      "kind": "audio",
-      "artist": "Little Miss Music",
-      "title": "genesis"
-    },
-    {
       "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/CaliSpeedway_Out_the_Blue_mixnmastr_edit_2.mp3",
       "kind": "audio",
       "artist": "CaliSpeedway",
       "title": "Out the Blue"
     },
     {
-      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/sol_siete_hoy_llueve.wav",
+      "url": "https://nftstorage.link/ipfs/bafybeie7mjxupsl5adhaj7novgndjifvggw6ebe7jeug6t7xda5palw7oi/LittleMissMusic_Genesis.mp3",
       "kind": "audio",
-      "artist": "Sol Siete",
-      "title": "Hoy llueve"
+      "artist": "Little Miss Music",
+      "title": "Genesis"
     }
   ]
 }

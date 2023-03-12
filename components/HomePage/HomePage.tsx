@@ -16,6 +16,8 @@ interface HomePageProps {
 
 const HomePage: NextPage<HomePageProps> = ({ collection }) => {
   const [tracks, setTracks] = useState([])
+  const descriptionPart1 = collection.editionMetadata.description.substring(0, 1072)
+  const descriptionPart2 = collection.editionMetadata.description.substring(1072)
 
   useEffect(() => {
     const loadTracks = async (playlistUrl: string) => {
@@ -45,13 +47,13 @@ const HomePage: NextPage<HomePageProps> = ({ collection }) => {
         </div>
         <div className="order-2 flex flex-col justify-center text-md text-white md:text-2xl col-span-6 md:col-span-3 gap-5 pb-5">
           <div className="text-4xl font-bold">{process.env.NEXT_PUBLIC_TITLE}</div>
-          <p>{process.env.NEXT_PUBLIC_DESCRIPTION_TEXT}</p>
-          <p className="pb-5">{collection.editionMetadata.description}</p>
+          <p className="pb-5 whitespace-pre-line">{descriptionPart1}</p>
         </div>
         <div className="order-3 col-span-3 flex justify-center items-center"></div>
         <div className="order-4 flex flex-col justify-start text-white text-md md:text-2xl col-span-3"></div>
         <div className="order-6 grid justify-items-center text-white	text-center lg:order-5 text-2xl col-span-6 lg:col-span-3">
           <div className="flex flex-col gap-3 text-center">
+            <p className="text-right sm:pr-3 whitespace-pre-line">{descriptionPart2}</p>
             <p className="font-bold">{process.env.NEXT_PUBLIC_TITLE}</p>
             {tracks.map((track) => (
               <p key={track.title}>

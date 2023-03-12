@@ -154,7 +154,7 @@ function SaleStatus({
 
   return (
     <>
-      {!saleNotStarted && (
+      {!saleNotStarted && process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID && (
         <CrossmintPayButton
           clientId={process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID}
           environment="production"
@@ -193,7 +193,7 @@ function SaleStatus({
               isMinted
                 ? { backgroundColor: '#1CB687' }
                 : {
-                    backgroundColor: '#f105cd',
+                    backgroundColor: '#ff017a',
                   }
             }
             className="fill-blue-500 font-bold text-xl"
