@@ -16,8 +16,10 @@ interface HomePageProps {
 
 const HomePage: NextPage<HomePageProps> = ({ collection }) => {
   const [tracks, setTracks] = useState([])
-  const descriptionPart1 = collection.editionMetadata.description.substring(0, 810)
-  const descriptionPart2 = collection.editionMetadata.description.substring(810)
+  const { description } = collection.editionMetadata
+  const subIndex = description.indexOf('Presentamos')
+  const descriptionPart1 = description.substring(0, subIndex)
+  const descriptionPart2 = description.substring(subIndex)
 
   useEffect(() => {
     const loadTracks = async (playlistUrl: string) => {

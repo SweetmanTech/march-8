@@ -20,6 +20,7 @@ const getCollectionChillDrop = async (contractAddress: string, provider: any) =>
     const { data: metadata } = await axios.get(metadataURI)
 
     const salesConfig = await contract.salesConfig()
+    const {publicSaleStart, publicSaleEnd} = salesConfig
     const price = salesConfig.publicSalePrice
     const maxSalePurchasePerAddress = salesConfig.maxSalePurchasePerAddress
     const totalSupply = await contract.totalSupply()
@@ -27,12 +28,16 @@ const getCollectionChillDrop = async (contractAddress: string, provider: any) =>
     const maxSupply = config.editionSize
 
     const erc721Drop = getErc721Drop(
-      {contractAddress,
-      metadata,
-      price,
-      maxSalePurchasePerAddress,
-      totalSupply,
-      maxSupply}
+      {
+        contractAddress,
+        metadata,
+        price,
+        maxSalePurchasePerAddress,
+        totalSupply,
+        maxSupply,
+        publicSaleStart: publicSaleStart.toString(),
+        publicSaleEnd: publicSaleEnd.toString()
+      }
     )
     return erc721Drop
 }
