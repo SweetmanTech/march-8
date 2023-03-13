@@ -69,8 +69,6 @@ function SaleStatus({
       presale,
     })
 
-  console.log('startDate', startDate)
-
   const mint = async () => {
     const { contractType } = collection
 
@@ -92,8 +90,6 @@ function SaleStatus({
     }
 
     contract = new ethers.Contract(process.env.NEXT_PUBLIC_CONTRACT_ADDRESS, abi, signer)
-    console.log('buying', mintCounter)
-    console.log('buying', collection.salesConfig.publicSalePrice)
     tx = await contract.purchase(mintCounter, {
       value: BigNumber.from(collection.salesConfig.publicSalePrice)
         .mul(mintCounter)
@@ -158,7 +154,7 @@ function SaleStatus({
 
   return (
     <>
-      {!saleNotStarted && process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID && (
+      {!saleNotStarted && (
         <CrossmintPayButton
           clientId={process.env.NEXT_PUBLIC_CROSSMINT_CLIENT_ID}
           environment="production"
@@ -197,7 +193,7 @@ function SaleStatus({
               isMinted
                 ? { backgroundColor: '#1CB687' }
                 : {
-                    backgroundColor: '#ff017a',
+                    backgroundColor: '#f105cd',
                   }
             }
             className="fill-blue-500 font-bold text-xl"
@@ -276,7 +272,7 @@ export function MintStatus({
   const [isMinted, setIsMinted] = useState<boolean>(false)
   const [mintCounter, setMintCounter] = useState(1)
   const [maticPrice, setMaticPrice] = useState(0)
-  const [showCryptoPrice, setShowCryptoPrice] = useState(true)
+  const [showCryptoPrice, setShowCryptoPrice] = useState(false)
   const availableMints = maxPerWallet - (userMintedCount || 0)
   const internalPrice = allowlistEntry?.price || collection?.salesConfig?.publicSalePrice
   const displayPrice = useMemo(

@@ -20,11 +20,7 @@ const getCollectionChillDrop = async (contractAddress: string, provider: any) =>
     const { data: metadata } = await axios.get(metadataURI)
 
     const salesConfig = await contract.salesConfig()
-    console.log("salesConfig", salesConfig)
     const {publicSaleStart, publicSaleEnd} = salesConfig
-    console.log("publicSaleStart", publicSaleStart)
-    console.log("publicSaleEnd", publicSaleEnd)
-
     const price = salesConfig.publicSalePrice
     const maxSalePurchasePerAddress = salesConfig.maxSalePurchasePerAddress
     const totalSupply = await contract.totalSupply()
