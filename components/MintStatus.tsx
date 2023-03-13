@@ -69,6 +69,8 @@ function SaleStatus({
       presale,
     })
 
+  console.log('startDate', startDate)
+
   const mint = async () => {
     const { contractType } = collection
 
@@ -90,6 +92,8 @@ function SaleStatus({
     }
 
     contract = new ethers.Contract(process.env.NEXT_PUBLIC_CONTRACT_ADDRESS, abi, signer)
+    console.log('buying', mintCounter)
+    console.log('buying', collection.salesConfig.publicSalePrice)
     tx = await contract.purchase(mintCounter, {
       value: BigNumber.from(collection.salesConfig.publicSalePrice)
         .mul(mintCounter)
