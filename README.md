@@ -1,8 +1,9 @@
-## Not yet, no?
+## 8M
 
-Mint Page: [notyetno.xyz](https://notyetno.xyz/)
+Mint Page: [march8.xyz](https://march8.xyz/)
 
-<img width="1440" alt="Screenshot 2023-03-03 at 4 46 32 PM" src="https://user-images.githubusercontent.com/23249402/222812707-d4421035-2e1d-4370-9335-140801c0da1b.png">
+<img width="1440" alt="Screenshot 2023-03-14 at 6 11 21 PM" src="https://user-images.githubusercontent.com/23249402/225137358-c58e93a1-e7df-4bf8-9ff3-e77bda168b61.png">
+
 
 ### Get Started
 
